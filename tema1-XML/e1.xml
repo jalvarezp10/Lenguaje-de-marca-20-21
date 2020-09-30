@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libro>
+    <editorial>edebe</editorial>
+    <paginas>360</paginas>
+    <autor>Platon</autor>
+    <titulo>Ser o no ser</titulo>
+    <capitulos>
+        <primer>
+            <titulo>Capitulo 1</titulo>
+            <pag_inicio>0</pag_inicio>
+            <pag_final>60</pag_final>
+        </primer>
+        <segundo>
+            <titulo>Capitulo 2</titulo>
+            <pag_inicio>61</pag_inicio>
+            <pag_final>120</pag_final>
+        </segundo>
+        <tercer>
+            <titulo>Capitulo 3</titulo>
+            <pag_inicio>121</pag_inicio>
+            <pag_final>180</pag_final>
+        </tercer>
+        <cuarto>
+            <titulo>Capitulo 4</titulo>
+            <pag_inicio>181</pag_inicio>
+            <pag_final>240</pag_final>
+        </cuarto>
+        <quinto>
+            <titulo>Capitulo 5</titulo>
+            <pag_inicio>241</pag_inicio>
+            <pag_final>300</pag_final>
+        </quinto>
+        <sexto>
+            <titulo>Capitulo 6</titulo>
+            <pag_inicio>301</pag_inicio>
+            <pag_final>360</pag_final>
+        </sexto>
+    </capitulos>
+</libro>

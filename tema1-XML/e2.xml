@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<centro_comercial>
+    <tiendas>
+        <tienda nombre="Zara">
+            <parcela>30</parcela>
+            <parcela>40</parcela>
+            <datos_encargados nombre="Alfonso" apellidos="Jimenez Gutierrez" telefono="955673453" NSS="759493545"/>
+        </tienda>
+        <tienda nombre="Pull and Bear">
+            <parcela>40</parcela>
+            <datos_encargados nombre="Jimena" apellidos="Garcia Moreno" telefono="955787634" NSS="23434543"/>
+        </tienda>
+        <tienda nombre="Mercadona">
+            <parcela>50</parcela>
+            <parcela>40</parcela>
+            <datos_encargados nombre="Luis Alberto" apellidos="Alvarez Carrasco" telefono="955723374" NSS="2342351"/>
+        </tienda>
+        <tienda nombre="Gucci">
+            <parcela>30</parcela>
+            <datos_encargados nombre="Gustavo" apellidos="Porras" telefono="435346342" NSS="576754634"/>
+        </tienda>
+        <tienda nombre="Maximo Dutti">
+            <parcela>30</parcela>
+            <parcela>30</parcela>
+            <datos_encargados nombre="Pepito" apellidos="Mantuerso Delarenne" telefono="34235235" NSS="5467345643"/>
+        </tienda>
+        <tienda nombre="Nike">
+            <parcela>50</parcela>
+            <datos_encargados nombre="Daniel" apellidos="Martinez Garcia" telefono="435452234" NSS="7865864456"/>
+        </tienda>
+        <tienda nombre="Adidas">
+            <parcela>40</parcela>
+            <datos_encargados nombre="Antonio" apellidos="Viñuelas Perales" telefono="243543543" NSS="34546543"/>
+        </tienda>
+        <tienda nombre="Impact Sea">
+            <parcela>30</parcela>
+            <datos_encargados nombre="Sebastian" apellidos="Aguero Pozo" telefono="34234545364" NSS="345346433"/>
+        </tienda>
+        <tienda nombre="Stradivarius">
+            <parcela>30</parcela>
+            <parcela>40</parcela>
+            <datos_encargados nombre="Francisco" apellidos="Serrano Torres" telefono="5463464" NSS="35234564364365"/>
+        </tienda>
+        <tienda nombre="Dia">
+            <parcela>60</parcela>
+            <parcela>40</parcela>
+            <datos_encargados nombre="Juan Carlos" apellidos="Toscano Mantos" telefono="6575686789" NSS="679678956"/>
+        </tienda>
+       
+    
+    </tiendas>
+
+
+
+</centro_comercial>
