@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ordenador name="Lenovo Legion">    
+
+    <componentes>
+        <procesador name="Intel Core i7-8700"/>
+        <memoria_Ram Gb="16"/>
+        <Almacenamiento capacidad="1TB 7200rpm y 128GB SDD"/>
+        <grafica modelo="Nvidia GeFOrce GTX 1050Ti">
+        <peso kg="11"/>
+        <color color="negro">
+
+
+    </componentes>
+</ordenador>
