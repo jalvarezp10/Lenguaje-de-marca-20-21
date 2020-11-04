@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cine>
+    <peliculas>
+        <pelicula nombre="Titanic" sala="7" director="Alfonso Olmo" resumen="">
+            <sesiones>
+                <sesion hora="18:00"/>
+                <sesion hora="20:00"/>
+                <sesion hora="22:00"/>
+            </sesiones>
+            
+            <protagonistas>
+                <protagonista nombre="Claudio Sloppy"/>
+                <protagonista nombre="Margarita Pochet"/>
+            </protagonistas>        
+        </pelicula>
+        <pelicula nombre="Titanic" sala="7" director="Alfonso Olmo" resumen="">
+            <sesiones>
+                <sesion hora="18:00"/>
+                <sesion hora="20:00"/>
+                <sesion hora="22:00"/>
+            </sesiones>
+            
+            <protagonistas>
+                <protagonista nombre="Claudio Sloppy"/>
+                <protagonista nombre="Margarita Pochet"/>
+            </protagonistas>        
+        </pelicula>
+        <pelicula nombre="Titanic" sala="7" director="Alfonso Olmo" resumen="">
+            <sesiones>
+                <sesion hora="18:00"/>
+                <sesion hora="20:00"/>
+                <sesion hora="22:00"/>
+            </sesiones>
+            
+            <protagonistas>
+                <protagonista nombre="Claudio Sloppy"/>
+                <protagonista nombre="Margarita Pochet"/>
+            </protagonistas>        
+        </pelicula>
+        <pelicula nombre="Titanic" sala="7" director="Alfonso Olmo" resumen="">
+            <sesiones>
+                <sesion hora="18:00"/>
+                <sesion hora="20:00"/>
+                <sesion hora="22:00"/>
+            </sesiones>
+            
+            <protagonistas>
+                <protagonista nombre="Claudio Sloppy"/>
+                <protagonista nombre="Margarita Pochet"/>
+            </protagonistas>        
+        </pelicula>
+        <pelicula nombre="Titanic" sala="7" director="Alfonso Olmo" resumen="">
+            <sesiones>
+                <sesion hora="18:00"/>
+                <sesion hora="20:00"/>
+                <sesion hora="22:00"/>
+            </sesiones>
+            
+            <protagonistas>
+                <protagonista nombre="Claudio Sloppy"/>
+                <protagonista nombre="Margarita Pochet"/>
+            </protagonistas>        
+        </pelicula>
+        <pelicula nombre="Titanic" sala="7" director="Alfonso Olmo" resumen="">
+            <sesiones>
+                <sesion hora="18:00"/>
+                <sesion hora="20:00"/>
+                <sesion hora="22:00"/>
+            </sesiones>
+            
+            <protagonistas>
+                <protagonista nombre="Claudio Sloppy"/>
+                <protagonista nombre="Margarita Pochet"/>
+            </protagonistas>        
+        </pelicula>
+
+    </peliculas>
+
+
+
+
+
+
+
+
+
+
+
+</cine>
