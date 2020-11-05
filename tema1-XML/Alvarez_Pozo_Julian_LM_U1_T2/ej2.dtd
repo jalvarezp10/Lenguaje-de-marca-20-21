@@ -1,0 +1,11 @@
+<?xml encoding="UTF-8"?>
+<!DOCTYPE students>
+<!ELEMENT students (Student)+>
+<!ATTLIST student dni id #REQUIRED>
+<!ELEMENT student (name,adress,phone)*>
+<!ELEMENT name(#PCDATA)
+<!ELEMENT adress(street,number,city)*>
+<!ELEMENT street(#PCDATA)
+<!ELEMENT number(#PCDATA)
+<!ELEMENT city(#PCDATA)
+<!ELEMENT phone(#PCDATA)

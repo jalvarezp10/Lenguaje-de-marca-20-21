@@ -1,0 +1,8 @@
+<?xml encoding="UTF-8"?>
+<!DOCTYPE iceCream>
+<!ELEMENT iceCreamShop (iceCream)+>
+<!ATTLIST iceCreamShop manufacture CDATA #FIXED>
+<!ELEMENT iceCream (chocolate|strawberry)>
+<!ATTLIST iceCream manufacture  CDATA #FIXED >
+<!ELEMENT chocolate (#PCDATA)>
+<!ELEMENT strawberry (#PCDATA)>

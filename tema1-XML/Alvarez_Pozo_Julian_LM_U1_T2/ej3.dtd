@@ -1,0 +1,8 @@
+<?xml encoding="UTF-8"?>
+<!DOCTYPE beatles>
+<!ELEMENT beatles (name)*>
+<!ATTLIST beatles link CDATA #REQUIRED>
+<!ELEMENT name (firstname,lastname)*>
+<!ELEMENT firstname(#PCDATA)
+<!ELEMENT lastname(#PCDATA)
+
