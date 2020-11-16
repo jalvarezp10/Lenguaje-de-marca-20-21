@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?><xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="beatles">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="beatle" maxOccurs="unbounded" minOccurs="0">
-          <xs:complexType>
+    <xs:element name = "relacion">
+        <xs:complexType>
             <xs:sequence>
-              <xs:element name="name">
+            <xs:element name = "persona">
                 <xs:complexType>
-                  <xs:sequence>
-                    <xs:element type="xs:string" name="firstname"/>
-                    <xs:element type="xs:string" name="lastname"/>
-                  </xs:sequence>
+                    <xs:sequence>
+                        <xs:element type = " xs: string" name = "nombre"/>
+                        <xs:element type = " xs: string" name = "email"/>
+                        <xs:element type = " xs: string" name = "parentesco"/>
+                    </xs:sequence>
+                    <xs:attribute type="xs:string" name="sexo" use="optional"/>
+                    <xs:attribute type="xs:string" name="carnet" use="optional"/>   
+                    <xs:attribute type="xs:string" name="tipo" use="required"/>
+                    
+                    
                 </xs:complexType>
-              </xs:element>
+                
+            </xs:element>
             </xs:sequence>
-            <xs:attribute type="xs:string" name="link" use="optional"/>
-            <xs:attribute type="xs:string" name="real" use="optional"/>
-          </xs:complexType>
-        </xs:element>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
+        </xs:complexType>
+    </xs:element>
 </xs:schema>

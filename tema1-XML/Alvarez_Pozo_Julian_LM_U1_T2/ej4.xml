@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shiporder orderid="sgffdgh">
+  <orderperson>dfghhne</orderperson>
+  <shipto>
+    <name>Alberto</name>
+    <address>Calle Juan Ramon Jimenez</address>
+    <city>Sevilla</city>
+    <country>España</country>
+  </shipto>
+  <item>
+    <title>ipad</title>
+    <note>fragil</note>
+    <quantity>3</quantity>
+    <price>234,3</price>
+  </item>
+</shiporder>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libro catalogo="dsklfj">
+    <titulo></titulo>
+    <seccion></seccion>
+    <subseccion></subseccion>
+    <contenido>
+        <capitulo materia="XML">
+            <tema></tema>
+        </capitulo>
+        <capitulo materia="HTML">
+            <tema></tema>
+        </capitulo>
+        <separacion></separacion>
+    </contenido>
+    <copyright></copyright>
+</libro>
