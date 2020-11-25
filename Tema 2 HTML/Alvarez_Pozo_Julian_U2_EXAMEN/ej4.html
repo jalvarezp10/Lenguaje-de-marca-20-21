@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <h1>Reservation Request</h1>
+            <fieldset>
+                <table>
+                    <tr>
+                        <td><label for="datetime">Arrival Time:</label></td>
+                        <td><input type="datetime-local" name="datetime" /> </td>
+                    </tr>
+                    <tr>
+                        <td><label for="texto">Texto:</label></td>
+                        <td><input type="text" name="text" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="numero">Adults:</label>
+                           
+                        </td>
+                        <td> <input type="number" name="numero" value="1" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="numero">Children:</label></td>
+                        <td><input type="number" name="numero" value="0" /></td>
+                    </tr>
+                </table>
+                
+                
+                
+                
+            </fieldset>
+            <fieldset>
+                <table>
+                    <tr>
+                        <td><label for="room">Room Type</label></td>
+                        <td>
+                        
+                            <input type="radio" name="room" value="Standard" checked />Standard
+                            <input type="radio" name="room" value="fBussines"  />Bussines
+                            <input type="radio" name="room" value="Suite" />Suite
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td><label for="room">Bed type</label></td>
+                        <td>
+                        
+                            <input type="radio" name="room" value="Standard" checked />King
+                            <input type="radio" name="room" value="fBussines"  />Double
+                           
+                        </td>
+                    </tr>
+
+                </table>
+
+            </fieldset>
+            <fieldset>
+                <table>
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text" name="name" /></td>
+                    </tr>
+                    <tr>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="email" name="email"  /></td>
+                        </tr>
+                    </tr>
+
+                </table>
+        
+            </fieldset>
+            <br>
+            <input type="submit" value="Submit Reservation" style="background-color: grey;" >
+            <input type="reset" value="Clear" style="background-color: grey;" >
+            
+    </fieldset> 
+   
+</body>
+</html>
