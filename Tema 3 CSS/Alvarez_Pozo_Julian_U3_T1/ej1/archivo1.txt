@@ -1,0 +1,25 @@
+/* Body */
+body {background-color: tan}
+Esto hace que la parte que este dentro del body tenga de fondo un color definido
+
+/* Headers */
+h1 {color:maroon; font-size:20pt}
+Esto hace que el encabezado , es decir el h1 tengo una fuente del color definido y un tamaño establecido
+
+/* HR (Hard Rule = line) */
+hr {color:navy}
+El hr se encarga de crear un a linea divisoria y lo que hace en la hoja de estilos es que esta linea sea de color azul
+
+/* Paragraphs */
+p {font-size:12pt; margin-left: 15px}
+p.verse {color:maroon; margin-left: 60px}
+Esto indica que todo lo q este dentro de la etiqueta p tenga una fuente de 12 pt y un espacio en el margen izquierdo lo que hace que exista una un hueco entre el borde de la ventana y el texto.Ademas hay creada una clase verse la cual hace que todas las etiquetas p que tengan la clase verse se les cambie el color de la letra y el margen del que antes hemos hablado sea de mayor tamaño
+
+/* Divs */
+
+/* Links */
+a:link     {color:green}
+a:visited  {color:yellow}
+a:hover    {color:black}
+a:active   {color:blue}
+Este estilo indica que todos los links que aparezcan sean de color amarillo, una vez que los visites se cambiara este color al verde.Tambien si el puntero esta sobre estos links el color cambiara al negro y finalmente si este 

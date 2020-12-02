@@ -1,0 +1,2 @@
+¿por qué los últimos 5 párrafos se muestran de forma diferente que los 2 primeros?
+Por que esos parrafos no estan dentros de la clase verse
