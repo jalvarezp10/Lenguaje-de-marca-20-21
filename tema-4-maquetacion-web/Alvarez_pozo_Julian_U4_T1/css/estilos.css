@@ -1,0 +1,108 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  div.head{
+      background-color: black;
+      color: white;
+      padding: 15px;
+  }
+  div#head2{
+      text-align: right;
+      
+  }
+  div.nav{
+    background-color:olivedrab;
+
+  }
+  div.nav div:hover{
+      background-color: white;
+      color: olivedrab;
+
+  }
+  div.nav div{
+    display: inline-block;
+    padding: 10px;
+    
+    
+  }
+  div.menu{
+    background-color: grey;
+    float: left;
+    text-align: center;
+    margin-top: 20;
+    border-radius: 5%;
+  }
+  div.menu img{
+    width: 80%;
+      
+  }
+  div#ies{
+      text-align: center;
+      margin-top: 30px;
+      width: 80%;
+      margin-left: 30px;
+  }
+  div.calendar{
+      
+      background-color: grey;
+      
+      float: left;
+      position: relative;
+      bottom: 300px;
+      margin-left: 80px;
+      border-radius: 1%;
+
+  }
+  div.calendar img{
+    
+    width: 80%;
+      
+      
+  }
+  div#categorias{
+    background-color: grey;
+    margin-top: 70px;
+    width: 60%;
+    float: left;
+    border-radius: 2%;
+    
+    
+   
+
+  }
+  div#cursos ul{
+      background-color: lightgrey;
+      float: left;
+      width: 60%;
+      margin-left: 18%;
+      border-radius: 2%;
+      border-color: olivedrab;
+      
+
+  }
+  ul li{
+      color: olivedrab;
+      padding: 5px;
+      
+  }
+  ul li span{
+      color: black;
+  }
+  div#cursos img{
+    float: right;
+    position: relative;
+    bottom: -210px;
+    width: 4rem;
+    left: -285px;
+      
+  }
+  div.footer{
+      background-color:black;
+      color: white;
+      clear: both;
+      text-align: center;
+      
+
+  }
