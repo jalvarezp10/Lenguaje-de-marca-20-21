@@ -1,0 +1,78 @@
+//color head
+$backhead:rgb(20, 128, 128);
+//width container
+$widthcontainer:90%;
+$margincontainer:5%;
+//width imagen
+$widthimg:200px;
+//color letra
+$colorletrawht:white;
+$colorletragrey:rgb(75, 70, 70);
+//fontsize
+$tamañoletra:20px;
+
+
+/*Usando anidamiento crear la hoja de estilos para el encabezado */
+header{
+    display: flex;
+    background-color: $backhead;
+    width: $widthcontainer;
+    float: left;
+    margin-left: 5%;
+    div{
+        padding-left: 10%;
+        h2{
+            color:$colorletrawht;
+        }
+        h1{
+            color: $colorletragrey;
+        }
+    }
+    img{
+        width:$widthimg;
+        padding: 5px;
+
+    }
+    .info{
+        padding-left: 40%;
+        color: $colorletrawht;
+        
+        
+        
+    }
+    
+}
+/*Usando anidamiento para darle forma a cada */
+.desc{
+    float: left;
+    width: $widthcontainer;
+    margin-left: $margincontainer;
+    h4{
+        font-size: $tamañoletra;
+    }
+}
+.comp{
+    float: left;
+    width: $widthcontainer;
+    margin-left: $margincontainer;
+    h4{
+        font-size: $tamañoletra;
+    }
+}
+.exp{
+    float: left;
+    width: $widthcontainer;
+    margin-left: $margincontainer;
+    h4{
+        font-size: $tamañoletra;
+    }
+}
+.int{
+    float: left;
+    width: $widthcontainer;
+   padding-bottom: 30px;
+    margin-left: $margincontainer;
+    h4{
+        font-size: $tamañoletra;
+    }
+}

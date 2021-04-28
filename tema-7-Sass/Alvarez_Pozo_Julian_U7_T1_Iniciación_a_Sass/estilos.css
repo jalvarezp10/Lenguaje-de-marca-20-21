@@ -1,0 +1,75 @@
+/*Usando anidamiento crear la hoja de estilos para el encabezado */
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #148080;
+  width: 90%;
+  float: left;
+  margin-left: 5%;
+}
+
+header div {
+  padding-left: 10%;
+}
+
+header div h2 {
+  color: white;
+}
+
+header div h1 {
+  color: #4b4646;
+}
+
+header img {
+  width: 200px;
+  padding: 5px;
+}
+
+header .info {
+  padding-left: 40%;
+  color: white;
+}
+
+/*Usando anidamiento para darle forma a cada */
+.desc {
+  float: left;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.desc h4 {
+  font-size: 20px;
+}
+
+.comp {
+  float: left;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.comp h4 {
+  font-size: 20px;
+}
+
+.exp {
+  float: left;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.exp h4 {
+  font-size: 20px;
+}
+
+.int {
+  float: left;
+  width: 90%;
+  padding-bottom: 30px;
+  margin-left: 5%;
+}
+
+.int h4 {
+  font-size: 20px;
+}
+/*# sourceMappingURL=estilos.css.map */
