@@ -1,0 +1,159 @@
+//color head
+$backhead:rgb(20, 128, 128);
+//width container
+$widthcontainer:90%;
+$margincontainer:5%;
+//width imagen
+$widthimg:200px;
+//color letra
+$colorletrawht:white;
+$colorletragrey:rgb(75, 70, 70);
+//fontsize
+$tamañoletra:20px;
+$widhttable:900px;
+
+
+/*Usando anidamiento crear la hoja de estilos para el encabezado */
+header{
+    display: flex;
+    background-color: $backhead;
+    width: $widthcontainer;
+    float: left;
+    margin-left: 5%;
+    div{
+        padding-left: 10%;
+        h2{
+            color:$colorletrawht;
+        }
+        h1{
+            color: $colorletragrey;
+        }
+    }
+    img{
+        width:$widthimg;
+        padding: 5px;
+
+    }
+    .info{
+        padding-left: 40%;
+        color: $colorletrawht;
+        
+        
+        
+    }
+    
+}
+/*Usando anidamiento para darle forma a cada */
+.desc{
+    float: left;
+    width: $widthcontainer;
+    margin-left: $margincontainer;
+    h4{
+        font-size: $tamañoletra;
+    }
+}
+.comp{
+    float: left;
+    width: $widthcontainer;
+    margin-left: $margincontainer;
+    h4{
+        font-size: $tamañoletra;
+    }
+}
+.exp{
+    float: left;
+    width: $widthcontainer;
+    margin-left: $margincontainer;
+    h4{
+        font-size: $tamañoletra;
+    }
+}
+.int{
+    float: left;
+    width: $widthcontainer;
+   padding-bottom: 30px;
+    margin-left: $margincontainer;
+    h4{
+        font-size: $tamañoletra;
+    }
+}
+.tabla{
+    width: $widthcontainer;
+    margin-left: $margincontainer;
+    float: left;
+    table{
+        width: $widhttable;
+        height: 300px;
+    }
+    
+    
+
+}
+//ejercicio 1
+$color-list: rgb(95, 211, 0), #00f, orange, #ccc,rgb(226, 29, 216),rgb(25, 145, 115),rgb(179, 176, 24);
+
+@for $i from 1 to 8 {
+  tr:nth-of-type(#{$i}) {
+    
+    background-color: nth($color-list, $i);
+  }
+}
+$num: 1;
+$i:1;
+//$color-list2: #0f0, #00f, orange, #ccc;
+//$widht-list:2rem,1.5rem,1rem,0.75rem,0.5rem,0,25rem;
+//@while $num < 7 {
+//    h:#{$i}(#{$num}) {
+ //     color:nth($color-list,$num);
+//      
+//      width: nth($widht-list,$num);
+ //   }
+ //   $num: $num + 1;
+  //}
+  //ejercicio 3
+  @function calcularAnchura($dimen_pag){
+    @if ($dimen_pag<576px) {
+       @return $widhttable -500px;
+    
+
+
+        
+    }@else if ($dimen_pag>576px){
+        @return $widhttable -200px;
+    }@else {
+        @return $widhttable;
+    }
+  
+}
+@media only screen and (max-width: 576px) {
+    table{ 
+        width: calcularAnchura(576px);
+
+    }
+  }
+  @media only screen and (max-width: 756px) {
+    table{ 
+        width: calcularAnchura(123px);
+
+    }
+
+  }
+  //ejercicio4
+$light-theme: true;
+$dark-theme: false;
+
+.container{
+  @if $light-theme == true {
+    background-color: #fff;
+    color: #000;
+  } @else if $dark-theme {
+    background-color: #000;
+    color: #fff;
+  } @else {
+    //Default theme
+    background-color: #aaa;
+    color: #444;
+  }
+}
+
+  
