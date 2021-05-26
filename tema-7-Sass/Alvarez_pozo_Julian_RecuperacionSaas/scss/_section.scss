@@ -1,0 +1,30 @@
+.section {
+    
+    .section__title {
+        padding-top: 10px;
+        border-bottom: 1px solid black;
+    }
+    .section__list {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .section__list-item {
+        display: flex;
+        padding-bottom: 10px;
+    }
+    .left {
+        width: 45%;
+        
+    }
+    .right {
+        width: 45%;
+    }
+    .interest{
+        border-bottom: none;
+    }
+}
+.section:nth-child(5){
+    .section__title{
+        border-bottom: none;
+    }
+}

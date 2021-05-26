@@ -1,0 +1,6 @@
+
+//funcion que coge un numero y a partir de ese escoge un color de la lista
+@function colorSectionTitle($num){
+    @return nth($color-list,$num)
+
+}

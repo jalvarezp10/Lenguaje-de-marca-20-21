@@ -1,0 +1,13 @@
+@mixin reset{ 
+    p,h1,h2,h3,h4,h5, h6{
+        margin: 0px;
+    }
+    
+    
+
+}
+@mixin centrado($margin-top-bottom,$tam_elementos) {
+    margin:$margin-top-bottom ;
+    width:$tam_elementos;
+
+}   

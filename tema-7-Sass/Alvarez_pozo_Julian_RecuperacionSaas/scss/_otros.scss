@@ -1,0 +1,12 @@
+//for para que vaya cambiando el color de letra en cada titulo
+@for $i from 1 through 4 {
+    .section-title-#{$i} {
+        color: colorSectionTitle($i);
+       
+    }
+}
+
+.container{
+    @include centrado(30px,90%);
+}
+@include reset;
