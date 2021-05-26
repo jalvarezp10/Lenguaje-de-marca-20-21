@@ -1,0 +1,87 @@
+.section .section__title {
+  padding-top: 15px;
+  border-bottom: 2px solid black;
+}
+.section .section__list {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.section .section__list-item {
+  display: flex;
+  padding-bottom: 15px;
+}
+.section .left {
+  width: 50%;
+}
+.section .right {
+  width: 50%;
+}
+
+.section:nth-child(5) .section__title {
+  border-bottom: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cccccc;
+  color: black;
+}
+
+.container {
+  margin: 15px auto;
+  width: 90%;
+}
+
+.section-title-1 {
+  color: red;
+}
+
+.section-title-2 {
+  color: green;
+}
+
+.section-title-3 {
+  color: orange;
+}
+
+.section-title-4 {
+  color: purple;
+}
+
+.full-name {
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+}
+
+.skills {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.skills .skills__item {
+  margin-top: 8px;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.contact-info .email-val {
+  border-right: 2px solid black;
+  padding-right: 15px;
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+$quince: 15px;
+
+.section {
+    
+    .section__title {
+        padding-top: $quince;
+        border-bottom: 2px solid black;
+    }
+    .section__list {
+        padding-top: $quince;
+        padding-bottom: $quince;
+    }
+    .section__list-item {
+        display: flex;
+        padding-bottom: $quince;
+    }
+    .left {
+        width: 50%;
+    }
+    .right {
+        width: 50%;
+    }
+}
+
+.section:nth-child(5){
+    .section__title{
+        border-bottom: none;
+    }
+}

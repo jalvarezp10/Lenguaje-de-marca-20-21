@@ -1,0 +1,53 @@
+@include reset();
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $color-base;
+    color: $color-letra;
+}
+
+.container {
+    @include centrado($quince, 90%);
+}
+
+@for $i from 1 through 4 {
+    .section-title-#{$i} {
+        color: colorSectionTitle($i);
+       
+    }
+}
+
+.full-name {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+.skills {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    .skills__item {
+        margin-top: 8px;
+    }
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    .email-val{
+        border-right: 2px solid $color-letra;
+        padding-right: $quince;
+        margin-right: 10px;
+    }
+ }
